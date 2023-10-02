@@ -1,0 +1,29 @@
+﻿<Window x:Class="Aplic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\cioba\Desktop\Aplic\Aplic\cinema.jpg"/>
+        </Grid.Background>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Filme" Margin="0 30 10 0" Click="Filme_Click"/>
+                <Button Content="Rezerva" Margin="0 30 10 0" Click="Rezerva_Click"/>
+            </StackPanel>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"  Text="Bine ati venit la sistemul nostru de gestionare cinematografic : Magic Cinema                     Apasati pe butonul de filme pentru a viziona filmele dispoibile in cinematograf astazi             sau                                                                       apasati pe butonul rezerva pentru a rezerva un bilet nou." VerticalAlignment="Center" Width="488" Height="266" RenderTransformOrigin="0.491,0.496"
+                FontFamily="Microsoft Sans Serif" FontWeight="Light" Foreground="#FF486DB1" FontSize="22" />
+        <!--<ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <ListViewItem>Item 1</ListViewItem>
+            <ListViewItem>Item 2</ListViewItem>
+            <ListViewItem>Item 3</ListViewItem>
+
+        </ListView>
+        -->
+    </Grid>
+</Window>
